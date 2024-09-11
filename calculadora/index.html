@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras Matemáticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo">Calculadoras de Factorial, Fibonacci y MCD</h1>
+
+    <div id="formulario-factorial">
+        <h4>Calculadora de Factorial</h4>
+        <label for="factorialInput">Ingrese un número:</label>
+        <input type="number" id="factorialInput">
+        <br><br>
+        <button id="BttnFacto">Calcular Factorial</button>
+        <h3 id="resultadoFactorial"></h3>
+    </div>
+
+    <div id="formulario-fibonacci">
+        <h4>Calculadora de Fibonacci</h4>
+        <label for="fibonacciInput">Ingrese un número:</label>
+        <input type="number" id="fibonacciInput">
+        <br><br>
+        <button id="BttnFibo">Calcular Fibonacci</button>
+        <h3 id="resultadoFibonacci"></h3>
+    </div>
+
+    <div id="formulario-mcd">
+        <h4>Calculadora de MCD</h4>
+        <label for="mcdInput1">Ingrese el primer número:</label>
+        <input type="number" id="mcdInput1">
+        <br><br>
+        <label for="mcdInput2">Ingrese el segundo número:</label>
+        <input type="number" id="mcdInput2">
+        <br><br>
+        <button id="BttnMcd">Calcular MCD</button>
+        <h3 id="resultadoMcd"></h3>
+    </div>
+
+    <script type="module" src="/public/main.js"></script>
+</body>
+
+</html>
